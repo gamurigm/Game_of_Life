@@ -1,7 +1,7 @@
 import { canvasDimention } from "./canvasDim.js";
 import { createGrid } from "./createGrid.mjs";
 import { randomizeGrid } from "./ramdomGrid.js";
-import { updateGrid } from "./updateGameStatus.js";
+import { updateGrid } from "./updateGameStatus.mjs";
 import { renderGrid } from "./gridRenderer.js";
 const {cols, rows, cellSize, canvas, context} = canvasDimention();
 export function initialize(){

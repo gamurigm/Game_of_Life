@@ -24,7 +24,7 @@ export function updateGrid(grid) {
   return newGrid;
 }
 
-function countLivingNeighbors(grid, col, row) {
+export function countLivingNeighbors(grid, col, row) {
   const cols = grid.length;
   const rows = grid[0].length;
   let count = 0;
