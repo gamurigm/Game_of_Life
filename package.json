@@ -1,0 +1,24 @@
+{
+  "name": "game_of_life",
+  "version": "1.0.0",
+  "description": "Conway's Game of life's Algorithm",
+  "main": "Game_Initializer.js",
+  
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gamurigm/Game_of_Life.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gamurigm/Game_of_Life/issues"
+  },
+  "homepage": "https://github.com/gamurigm/Game_of_Life#readme",
+  "devDependencies": {
+    "supertest": "^6.3.3"
+  }
+}
