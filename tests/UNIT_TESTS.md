@@ -49,6 +49,9 @@ In these unit tests, we will be testing the `createGrid` function. The `createGr
 
 ## 2. Testing randomizeGrid function:
 The purpose of testing the randomizeGrid function is to ensure that it generates a random grid with the appropriate life or death states assigned to each cell.
+Follow these steps:
+1. In the test folder Run on terminal: `node randomizeGrid_test.js`
+2.test the following:
 
 **2.a** Test-case: `rows=1 columns=1`
 **result:**
