@@ -1,3 +1,5 @@
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+
 # Game_of_Life
 Conway's Game of life's Algorithm 
 
@@ -158,3 +160,10 @@ Here is our game board example with a 50x50 grid, 50 columns and 50 rows:
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/docs/img/game-front-end_ex1.PNG" alt="50x50" width="500" height="500" />
 </p>
 
+## Flow's Diagram
+
+graph LR
+  A[Inicio] --> B[Paso 1]
+  B --> C[Paso 2]
+  C --> D[Paso 3]
+  D --> E[Fin]
