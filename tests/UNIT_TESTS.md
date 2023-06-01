@@ -65,25 +65,62 @@ Follow these steps:
 1. In the test folder Run on terminal: `node randomizeGrid_test.js`
 2.test the following:
 
-2.a Test-case: `rows=1 columns=1`
+**2.a** Test-case: `rows=1 columns=1`
 **result:**
 
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.a.PNG" alt="2.a">
 </p>
-2.b Test-case: `rows=5 and columns=4`
+
+**2.b** Test-case: `rows=5 and columns=4`
 **result:**
 
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.b.PNG" alt="2.b">
 </p>
 
-2.c Test-case: `rows=7 and columns=36`
+**2.c** Test-case: `rows=7 and columns=36`
 **result:**
 
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.c.PNG" alt="2.c">
 </p>
+
+**a.** Test-case: `columns = 0 and rows = 0`
+**result:** 
+
+<p align="center">
+  <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.a-test.PNG" alt="a.">
+</p>
+
+**b.** Test-case: `columns = 1 and rows = 1`
+**result:**
+
+<p align="center">
+  <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.b-test.PNG" alt="b.">
+</p>
+
+**c.** Test-case: `columns=5 and rows=4`
+**result:**
+
+<p align="center">
+  <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.c-test.PNG" alt="c.">
+</p>
+
+**d.** Test-case: `columns=10 and rows=30`
+**result:**
+
+<p align="center">
+  <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.d-test.PNG" alt="d.">
+</p>
+
+**e.** Test-case: `columns=501 and rows=301`
+**result:**
+
+<p align="center">
+  <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.e-test.PNG" alt="e.">
+</p>
+
 
 ## 3. Testing updateGrid function:
 The purpose of testing the `updateGrid()` function is to verify its correctness and ensure that it accurately updates the state of the grid according to the rules of the game.
