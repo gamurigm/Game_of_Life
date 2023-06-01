@@ -19,7 +19,7 @@ In these unit tests, we will be testing the `createGrid` function. The `createGr
 **result:** 
 ![a.](./test/img/1.a-test.png)
 
-**b.** Test-case: colums = 1 and rows = 1
+**b.** Test-case: `colums = 1 and rows = 1`
 **result:**
 ![b.](./test/img/1.b-test.png)
 
