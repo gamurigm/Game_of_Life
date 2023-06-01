@@ -101,16 +101,6 @@ The flow of the application is as follows:
 ## FLowchart:
 ```mermaid 
 flowchart TB
-    subgraph Game 
-        initialize[Initialize]
-        getDimensions[Get Canvas Dimensions]
-        createGrid[Create Grid]
-        randomizeGrid[Randomize Grid]
-        updateGrid[Update Grid]
-        renderGrid[Render Grid]
-        updateGame[Update Game Status]
-    end
-
     initialize --> getDimensions
     getDimensions --> createGrid
     createGrid --> randomizeGrid
