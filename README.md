@@ -112,9 +112,12 @@ To compile and run the Game of Life project, follow these steps:
 
 1. Open the "Game_of_Life" folder using Visual Studio Code.
 2. Go to the Extensions section of Visual Studio Code, search for "Live Server," and install it.
-3. Start the server by clicking the "Go Live" button located in the bottom-right corner of Visual Studio Code.
-4. The server will start on a local port and open in your default browser.
-5. Enter the required data prompted by the program to start the game.
+
+![Image Description](./docs/img/live-server.jpg)
+
+4. Start the server by clicking the "Go Live" button located in the bottom-right corner of Visual Studio Code.
+5. The server will start on a local port and open in your default browser.
+6. Enter the required data prompted by the program to start the game.
 
 That's it! You should now be able to access and interact with the Game of Life project in your browser. Enjoy!
 
