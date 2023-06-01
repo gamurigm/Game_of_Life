@@ -110,26 +110,32 @@ The game object provides the `getUpdateCount()` method to retrieve the current v
 
 To compile and run the Game of Life project, follow these steps:
 
-1. Open the "Game_of_Life" folder using Visual Studio Code.
-2. Go to the Extensions section of Visual Studio Code, search for "Live Server," and install it.
+**1.** Open the "Game_of_Life" folder using Visual Studio Code.
+
+**2.** Go to the Extensions section of Visual Studio Code, search for "Live Server," and install it.
 
 ![Install Live Server](https://github.com/gamurigm/Game_of_Life/blob/main/docs/img/live-server.PNG)
 
 
-3. Start the server by clicking the "Go Live" button located in the bottom-right corner of Visual Studio Code.
+
+**3.** Start the server by clicking the "Go Live" button located in the bottom-right corner of Visual Studio Code.
 
 ![go live](https://github.com/gamurigm/Game_of_Life/blob/main/docs/img/goLive.PNG)
 
 
-4. The server will start on a local port and open in your default browser.
+
+**4.** The server will start on a local port and open in your default browser.
 
 ![server started](https://github.com/gamurigm/Game_of_Life/blob/main/docs/img/serverStarted.PNG)
 
-5. Enter the required data prompted by the program to start the game.
+
+
+**5.** Enter the required data prompted by the program to start the game.
 
 ![data input](https://github.com/gamurigm/Game_of_Life/blob/main/docs/img/dataInput.PNG)
 
 
-That's it! You should now be able to access and interact with the Game of Life project in your browser. Enjoy!
+
+_That's it! You should now be able to access and interact with the Game of Life project in your browser. Enjoy!
 
 # Examples and Use Cases <a name="examples-and-use-cases"></a>
