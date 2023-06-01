@@ -17,24 +17,24 @@ In these unit tests, we will be testing the `createGrid` function. The `createGr
 
 **a.** Test-case: `columns = 0 and rows = 0`
 **result:** 
-![Descripción de la imagen](ruta/a/la/imagen.png)
+![Descripción de la imagen](./test/img/1.a-test.png)
 
 
 **b.** Test-case: colums = 1 and rows = 1
 **result:**
-![Descripción de la imagen](ruta/a/la/imagen.png)
+![Descripción de la imagen](./test/img/1.b-test.png)
 
 **c.** Test-case: `columns=5 and rows=4`
 **result:**
-![Descripción de la imagen](ruta/a/la/imagen.png)
+![Descripción de la imagen](./test/img/1.c-test.png)
 
 **d.** Test-case: `columns=10 and rows=30`
 **result:**
-![Descripción de la imagen](ruta/a/la/imagen.png)
+![Descripción de la imagen](./test/img/1.d-test.png)
 
-**d.** Test-case: `columns=501 and rows=301`
+**e.** Test-case: `columns=501 and rows=301`
 **result:**
-![Descripción de la imagen](ruta/a/la/imagen.png)
+![Descripción de la imagen](./test/img/1.e-test.png)
 
 ## Use Cases Matrix
 
