@@ -118,7 +118,7 @@ flowchart TB
     updateGrid --> renderGrid
     updateGrid --> updateGame
     renderGrid --> updateGame
-
+```
 
 # Configuration <a name="configuration"></a>
 
