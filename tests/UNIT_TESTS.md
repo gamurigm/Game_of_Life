@@ -78,40 +78,56 @@ these are the fixed valued for three grids (anyone can manually modify):
 
 ![fixedValues](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/fixedValues.PNG)
 
-**3.1a** Test-case: `fixed grid 1`
-**result:**
-![3.1a](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.1a.PNG)
 
-**3.1a** Test-case: `fixed grid 2`
-**result:**
-![3.1a](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.1b.PNG)
+Aquí tienes las imágenes centradas y con la descripción adecuada:
 
-**3.1a** Test-case: `fixed grid 3`
-**result:**
-![3.1a](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.1c.PNG)
+3.1a Test-case: `fixed grid 1`
+Resultado:
 
-### Variation: 
-In this case we use (x,y) rows and cols promted by the user and random values.
+<p align="center">
+  <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.1a.PNG" alt="3.1a">
+</p>
+3.1b Test-case: `fixed grid 2`
+Resultado:
 
-at current directory run: `node testUpdateGrid_random.mjs`
+<p align="center">
+  <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.1b.PNG" alt="3.1b">
+</p>
+3.1c Test-case: `fixed grid 3`
+Resultado:
 
-**3.2a** Test-case: `rows=1 columns=1`
-**result:**
-![3.2a](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.2a.PNG)
+<p align="center">
+  <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.1c.PNG" alt="3.1c">
+</p>
+Variación:
+En este caso, utilizamos las filas (rows) y columnas (cols) proporcionadas por el usuario y valores aleatorios.
 
-**3.2b** Test-case: `rows=2 and columns=3`
-**result:**
-![3.2b](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.2b.PNG)
+En el directorio actual, ejecuta: node testUpdateGrid_random.mjs
 
-**3.2c** Test-case: `rows=5 and columns=5`
-**result:**
-![3.2c](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.2c.PNG)
+3.2a Test-case: `rows=1 columns=1`
+Resultado:
 
-**3.2d** Test-case: `rows=7 and columns=36`
-**result:**
-![3.2d](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.2d.PNG)
+<p align="center">
+  <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.2a.PNG" alt="3.2a">
+</p>
+3.2b Test-case: `rows=2 and columns=3`
+Resultado:
 
+<p align="center">
+  <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.2b.PNG" alt="3.2b">
+</p>
+3.2c Test-case: `rows=5 and columns=5`
+Resultado:
 
+<p align="center">
+  <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.2c.PNG" alt="3.2c">
+</p>
+3.2d Test-case: `rows=7 and columns=36`
+Resultado:
+
+<p align="center">
+  <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.2d.PNG" alt="3.2d">
+</p>
 
 ## Use Cases Matrix
 
