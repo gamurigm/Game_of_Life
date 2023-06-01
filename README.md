@@ -7,7 +7,7 @@ The rules determine the state of each cell in the next generation based on its c
 These simple rules give rise to complex patterns and behaviors in the evolving generations of the game.
 
 ## Table of Contents
-1. [**Game Rules**](game-rules)
+1. [**Game Rules**](#game-rules)
 2. [**Requirements**](#requirements)
 3. [**Installation Instructions**](#installation-instructions)
 4. [**Project Structure**](#project-structure)
@@ -70,7 +70,7 @@ The project consists of several files organized into modules to handle different
 - `updateGameStatus.js` depends on `createGrid.mjs` to create a new grid.
 - `gridRenderer.js` depends on external factors like the canvas and its context to render the grid.
 
-## Project Functions
+## Project's Functions
 
 | Function name                  | Description                                                 |
 | ------------------------------ | ----------------------------------------------------------- |
