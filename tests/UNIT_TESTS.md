@@ -127,62 +127,63 @@ The purpose of testing the `updateGrid()` function is to verify its correctness 
 
 Test the followig:
 
-### With fixed values:
-at current directory run: `node testUpdateGrid_fixed.mjs`
+### Fixed Values
+At current directory , run: `node testUpdateGrid_fixed.mjs`
 
-these are the fixed valued for three grids (anyone can manually modify):
-
-<p align="center">
-  <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/fixedValues.PNG" alt="fixedValues">
-</p>
-
-3.1a Test-case: `fixed grid 1`
+**3.1a** Test-case: `fixed grid 1`
 **Result:**
 
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.1a.PNG" alt="3.1a">
 </p>
-3.1b Test-case: `fixed grid 2`
+
+**3.1b** Test-case: `fixed grid 2`
 **Result:**
 
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.1b.PNG" alt="3.1b">
 </p>
-3.1c Test-case: `fixed grid 3`
+
+**3.1c** Test-case: `fixed grid 3`
 **Result:**
 
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.1c.PNG" alt="3.1c">
 </p>
-Variación:
+
+### Variation:
 In this case we get mxn grid promted by user and random values generated in grid.
 
-At current directory, run: node testUpdateGrid_random.mjs
+At current directory, run: `node testUpdateGrid_random.mjs`
 
-3.2a Test-case: `rows=1 columns=1`
+**3.2a** Test-case: `rows=1 columns=1`
 **Result:**
 
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.2a.PNG" alt="3.2a">
 </p>
-3.2b Test-case: `rows=2 and columns=3`
+
+**3.2b** Test-case: `rows=2 and columns=3`
 **Result:**
 
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.2b.PNG" alt="3.2b">
 </p>
-3.2c Test-case: `rows=5 and columns=5`
-Resultado:
+
+**3.2c** Test-case: `rows=5 and columns=5`
+**Result:**
 
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.2c.PNG" alt="3.2c">
 </p>
-3.2d Test-case: `rows=7 and columns=36`
+
+**3.2d** Test-case: `rows=7 and columns=36`
 **Result:**
 
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.2d.PNG" alt="3.2d">
 </p>
+
 
 ## Use Cases Matrix
 
