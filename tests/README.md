@@ -12,6 +12,41 @@ To run the unit tests follow these steps:
 
 In these unit tests, we will be testing the `createGrid` function. The `createGrid` function is responsible for creating the initial grid based on the specified dimensions.
 1. Place you at the proyect's test folder 
-2. run at vcode or any terminal: `Node createGrid.js`  
+2. Run at vcode or any terminal: `Node createGrid_test.mjs`  
+3. test the following:
+
+**a.** Test-case: `columns = 0 and rows = 0`
+**result:** 
+![Descripción de la imagen](ruta/a/la/imagen.png)
+
+
+**b.** Test-case: colums = 1 and rows = 1
+**result:**
+![Descripción de la imagen](ruta/a/la/imagen.png)
+
+**c.** Test-case: `columns=5 and rows=4`
+**result:**
+![Descripción de la imagen](ruta/a/la/imagen.png)
+
+**d.** Test-case: `columns=10 and rows=30`
+**result:**
+![Descripción de la imagen](ruta/a/la/imagen.png)
+
+**d.** Test-case: `columns=501 and rows=301`
+**result:**
+![Descripción de la imagen](ruta/a/la/imagen.png)
+
+## Use Cases Matrix
+
+| Test ID | Description         | Pre-Condition        | Pass/Fail |
+| --------| --------------------| -------------------- | --------- |
+| a       | cols = 0 & rows = 0 | getCanvasDimension() |   YES     |                  
+| b       | cols = 1 & rows = 1 | getCanvasDimension() |   YES     |              
+| c       | cols = 5 & rows = 4 | getCanvasDimension() |   YES     |                       
+| d       | cols = 10 & rows = 30 | getCanvasDimension() |   YES     |                       
+| e       | cols = 501 & rows = 301 | getCanvasDimension() |   YES     |                       
+
+
+
 ## 2. Testing randomizeGrig function:
 ## 3. Testing updateGrid function:
