@@ -50,6 +50,17 @@ Node.js is now installed and ready to use in the Command Prompt (CMD) on your Wi
 
 
 ## How It Works <a name="how-it-works"></a>
+# App's Flow:
+
+The flow of the application is as follows:
+
+1. The `startGame.js` file imports the game object from the `game.js` file.
+2. The `initialize()` method of the game object is executed.
+3. The `initialize()` method creates the grid, generates an initial random configuration, and sets the update interval.
+4. An update loop is initiated using `setInterval`, where the `updateGame()` method of the game object is called in each iteration.
+5. The `updateGame()` method updates the game state by applying the rules, renders the grid, and increases the update counter.
+6. The update loop continues at regular intervals until it is stopped by user.
+
 
 
 ## Configuration <a name="configuration"></a>
