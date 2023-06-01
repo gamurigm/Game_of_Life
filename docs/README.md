@@ -1,4 +1,3 @@
-<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 
 # Game_of_Life
 Conway's Game of life's Algorithm 
@@ -162,8 +161,10 @@ Here is our game board example with a 50x50 grid, 50 columns and 50 rows:
 
 ## Flow's Diagram
 
-graph LR
-  A[Inicio] --> B[Paso 1]
-  B --> C[Paso 2]
-  C --> D[Paso 3]
-  D --> E[Fin]
+```dot
+digraph flowchart {
+  start -> step1;
+  step1 -> step2;
+  step2 -> step3;
+  step3 -> end;
+}
