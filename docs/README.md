@@ -132,6 +132,7 @@ The game object provides the `getUpdateCount()` method to retrieve the current v
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/docs/img/Control.PNG" alt="control">
 </p>
+
 **Note:** minimum velocity is reached at right side of the bar. 
 
 # Compilation Instructions <a name="compilation-instructions"></a>
