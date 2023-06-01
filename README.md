@@ -155,4 +155,4 @@ _That's it! You should now be able to access and interact with the Game of Life 
 
 Here is our game board example with a 50x50 grid, 50 columns and 50 rows:
  
-![data input](https://github.com/gamurigm/Game_of_Life/blob/main/docs/img/game-front-end_ex1.PNG)
+![50x50](https://github.com/gamurigm/Game_of_Life/blob/main/docs/img/game-front-end_ex1.PNG)
