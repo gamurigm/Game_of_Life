@@ -2,9 +2,32 @@
 <html>
 <head>
   <title>Game of Life</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header>
+    <h1 class="title">Game of Life</h1>
+  </header>
+ 
+  <script type="module" src="startGame.js"></script>
+  <script type="module" src="controls.js"></script>
+
   <canvas id="gameBoard"></canvas>
-  <script  type="module" src="Game_Initializer.js"></script>
+  
+  <div class="control-container">
+    <div class="control-item">
+      <span class="control-key">Generations: </span>
+      <span class="control-value" id="generations-value"></span>
+    </div>
+
+    <div class="control-item">
+      <span class="control-key">Velocity: </span>
+      <input type="range" id="velocity-slider" min="100" max="10000" step="100" value="100">
+      <span class="control-value" id="velocity-value"></span>
+    </div>
+    
+
+  <script type="module" src="updateGenerations.js"></script>  
+  
 </body>
 </html>

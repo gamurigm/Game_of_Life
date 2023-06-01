@@ -21,6 +21,7 @@ export function updateGrid(grid) {
       }
     }
   }
+
   return newGrid;
 }
 
@@ -46,3 +47,5 @@ export function countLivingNeighbors(grid, col, row) {
   count -= grid[col][row];
   return count;
 }
+
+

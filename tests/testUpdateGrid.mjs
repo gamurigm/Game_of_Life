@@ -3,8 +3,8 @@ import { updateGrid } from '../updateGameStatus.mjs';
 function testUpdateGrid() {
   const grid = [
     [0, 1, 0],
-    [0, 0, 1],
     [1, 1, 1],
+    [0, 1, 0],
   ];
 
   const updatedGrid = updateGrid(grid);
