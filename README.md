@@ -118,7 +118,7 @@ To compile and run the Game of Life project, follow these steps:
 
 3. Start the server by clicking the "Go Live" button located in the bottom-right corner of Visual Studio Code.
 
-![go live](https://github.com/gamurigm/Game_of_Life/blob/main/docs/img/go-live.PNG)
+![go live](https://github.com/gamurigm/Game_of_Life/blob/main/docs/img/goLive.PNG)
 
 
 4. The server will start on a local port and open in your default browser.
