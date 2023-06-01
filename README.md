@@ -154,5 +154,8 @@ _That's it! You should now be able to access and interact with the Game of Life 
 # Examples and Use Cases <a name="examples-and-use-cases"></a>
 
 Here is our game board example with a 50x50 grid, 50 columns and 50 rows:
- 
+ <p align="center">
+  <img src="https://github.com/gamurigm/Game_of_Life/blob/main/docs/img/game-front-end_ex1.PNG" alt="50x50" width="300" height="300" />
+</p>
+
 ![50x50](https://github.com/gamurigm/Game_of_Life/blob/main/docs/img/game-front-end_ex1.PNG)
