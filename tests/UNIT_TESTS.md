@@ -75,6 +75,7 @@ Test the followig:
 at current directory run: `node testUpdateGrid_fixed.mjs`
 
 these are the fixed valued for three grids (anyone can manually modify):
+
 ![fixedValues](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/fixedValues.PNG)
 
 **3.1a** Test-case: `fixed grid 1`
