@@ -15,34 +15,32 @@ In these unit tests, we will be testing the `createGrid` function. The `createGr
 2. Run at visual code or any terminal: `node createGrid_test.mjs`  
 3. test the following:
 
-a. Test-case: `columns = 0 and rows = 0`
+**a.** Test-case: `columns = 0 and rows = 0`
 **result:**
-
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.a-test.PNG" alt="1.a">
 </p>
-b. Test-case: colums = 1 and rows = 1
-**result:**
 
+**b.* Test-case: colums = 1 and rows = 1
+**result:**
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.b-test.PNG" alt="1.b">
 </p>
-c. Test-case: `columns=5 and rows=4`
-**result:**
 
+**c.** Test-case: `columns=5 and rows=4`
+**result:**
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.c-test.PNG" alt="1.c">
 </p>
-d. Test-case: `columns=10 and rows=30`
-**result:**
 
+**d.** Test-case: `columns=10 and rows=30`
+**result:**
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.d-test.PNG" alt="1.d">
 </p>
 
-e. Test-case: `columns=501 and rows=301`
+**e.** Test-case: `columns=501 and rows=301`
 **result:**
-
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.e-test.PNG" alt="1.e">
 </p>
@@ -67,60 +65,21 @@ Follow these steps:
 
 **2.a** Test-case: `rows=1 columns=1`
 **result:**
-
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.a.PNG" alt="2.a">
 </p>
 
 **2.b** Test-case: `rows=5 and columns=4`
 **result:**
-
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.b.PNG" alt="2.b">
 </p>
 
 **2.c** Test-case: `rows=7 and columns=36`
 **result:**
-
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.c.PNG" alt="2.c">
 </p>
-
-**a.** Test-case: `columns = 0 and rows = 0`
-**result:** 
-
-<p align="center">
-  <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.a-test.PNG" alt="a.">
-</p>
-
-**b.** Test-case: `columns = 1 and rows = 1`
-**result:**
-
-<p align="center">
-  <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.b-test.PNG" alt="b.">
-</p>
-
-**c.** Test-case: `columns=5 and rows=4`
-**result:**
-
-<p align="center">
-  <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.c-test.PNG" alt="c.">
-</p>
-
-**d.** Test-case: `columns=10 and rows=30`
-**result:**
-
-<p align="center">
-  <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.d-test.PNG" alt="d.">
-</p>
-
-**e.** Test-case: `columns=501 and rows=301`
-**result:**
-
-<p align="center">
-  <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.e-test.PNG" alt="e.">
-</p>
-
 
 ## 3. Testing updateGrid function:
 The purpose of testing the `updateGrid()` function is to verify its correctness and ensure that it accurately updates the state of the grid according to the rules of the game.
@@ -129,6 +88,11 @@ Test the followig:
 
 ### Fixed Values
 At current directory , run: `node testUpdateGrid_fixed.mjs`
+
+run the test with these fixed values first:
+<p align="center">
+  <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/fixedValues.PNG" alt="fixedValues">
+</p>
 
 **3.1a** Test-case: `fixed grid 1`
 **Result:**
