@@ -100,7 +100,7 @@ The flow of the application is as follows:
 
 ## FLowchart:
 ```mermaid 
-flowchart TB
+flowchart
     initialize --> getDimensions
     getDimensions --> createGrid
     createGrid --> randomizeGrid
@@ -139,6 +139,7 @@ To compile and run the Game of Life project, follow these steps:
 **2.** Go to the Extensions section of Visual Studio Code, search for "Live Server," and install it.
 
 ![Install Live Server](https://github.com/gamurigm/Game_of_Life/blob/main/docs/img/live-server.PNG)
+
 
 
 
