@@ -17,23 +17,23 @@ In these unit tests, we will be testing the `createGrid` function. The `createGr
 
 **a.** Test-case: `columns = 0 and rows = 0`
 **result:** 
-![a.](./test/img/1.a-test.png)
+![a.](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.a-test.PNG)
 
 **b.** Test-case: `colums = 1 and rows = 1`
 **result:**
-![b.](./test/img/1.b-test.png)
+![b.](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.b-test.PNG)
 
 **c.** Test-case: `columns=5 and rows=4`
 **result:**
-![c.](./test/img/1.c-test.png)
+![c.](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.c-test.PNG)
 
 **d.** Test-case: `columns=10 and rows=30`
 **result:**
-![d.](./test/img/1.d-test.png)
+![d.](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.d-test.PNG)
 
 **e.** Test-case: `columns=501 and rows=301`
 **result:**
-![e.](./test/img/1.e-test.png)
+![e.](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.e-test.PNG)
 
 ## Use Cases Matrix
 
