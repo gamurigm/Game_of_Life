@@ -100,7 +100,7 @@ The flow of the application is as follows:
 
 ## FLowchart:
 ```mermaid 
-flowchart 
+flowchart TB
     subgraph Game 
         initialize[Initialize]
         getDimensions[Get Canvas Dimensions]
