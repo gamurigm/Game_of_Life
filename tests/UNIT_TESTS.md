@@ -15,25 +15,36 @@ In these unit tests, we will be testing the `createGrid` function. The `createGr
 2. Run at visual code or any terminal: `node createGrid_test.mjs`  
 3. test the following:
 
-**a.** Test-case: `columns = 0 and rows = 0`
-**result:** 
-![a.](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.a-test.PNG)
+a. Test-case: columns = 0 and rows = 0
+result:
 
-**b.** Test-case: `colums = 1 and rows = 1`
-**result:**
-![b.](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.b-test.PNG)
+<p align="center">
+  <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.a-test.PNG" alt="1.a">
+</p>
+b. Test-case: colums = 1 and rows = 1
+result:
 
-**c.** Test-case: `columns=5 and rows=4`
-**result:**
-![c.](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.c-test.PNG)
+<p align="center">
+  <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.b-test.PNG" alt="1.b">
+</p>
+c. Test-case: columns=5 and rows=4
+result:
 
-**d.** Test-case: `columns=10 and rows=30`
-**result:**
-![d.](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.d-test.PNG)
+<p align="center">
+  <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.c-test.PNG" alt="1.c">
+</p>
+d. Test-case: columns=10 and rows=30
+result:
 
-**e.** Test-case: `columns=501 and rows=301`
-**result:**
-![e.](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.e-test.PNG)
+<p align="center">
+  <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.d-test.PNG" alt="1.d">
+</p>
+e. Test-case: columns=501 and rows=301
+result:
+
+<p align="center">
+  <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.e-test.PNG" alt="1.e">
+</p>
 
 ## Use Cases Matrix
 
@@ -60,13 +71,13 @@ Follow these steps:
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.a.PNG" alt="2.a">
 </p>
 2.b Test-case: rows=5 and columns=4
-**result:
+**result:**
 
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.b.PNG" alt="2.b">
 </p>
 2.c Test-case: rows=7 and columns=36
-**result:
+**result:**
 
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.c.PNG" alt="2.c">
