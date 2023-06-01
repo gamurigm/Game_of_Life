@@ -15,32 +15,33 @@ In these unit tests, we will be testing the `createGrid` function. The `createGr
 2. Run at visual code or any terminal: `node createGrid_test.mjs`  
 3. test the following:
 
-a. Test-case: columns = 0 and rows = 0
-result:
+a. Test-case: `columns = 0 and rows = 0`
+**result:**
 
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.a-test.PNG" alt="1.a">
 </p>
 b. Test-case: colums = 1 and rows = 1
-result:
+**result:**
 
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.b-test.PNG" alt="1.b">
 </p>
-c. Test-case: columns=5 and rows=4
-result:
+c. Test-case: `columns=5 and rows=4`
+**result:**
 
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.c-test.PNG" alt="1.c">
 </p>
-d. Test-case: columns=10 and rows=30
-result:
+d. Test-case: `columns=10 and rows=30`
+**result:**
 
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.d-test.PNG" alt="1.d">
 </p>
-e. Test-case: columns=501 and rows=301
-result:
+
+e. Test-case: `columns=501 and rows=301`
+**result:**
 
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/1.e-test.PNG" alt="1.e">
@@ -98,36 +99,36 @@ these are the fixed valued for three grids (anyone can manually modify):
 </p>
 
 3.1a Test-case: `fixed grid 1`
-Resultado:
+**Result:**
 
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.1a.PNG" alt="3.1a">
 </p>
 3.1b Test-case: `fixed grid 2`
-Resultado:
+**Result:**
 
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.1b.PNG" alt="3.1b">
 </p>
 3.1c Test-case: `fixed grid 3`
-Resultado:
+**Result:**
 
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.1c.PNG" alt="3.1c">
 </p>
 Variación:
-En este caso, utilizamos las filas (rows) y columnas (cols) proporcionadas por el usuario y valores aleatorios.
+In this case we get mxn grid promted by user and random values generated in grid.
 
-En el directorio actual, ejecuta: node testUpdateGrid_random.mjs
+At current directory, run: node testUpdateGrid_random.mjs
 
 3.2a Test-case: `rows=1 columns=1`
-Resultado:
+**Result:**
 
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.2a.PNG" alt="3.2a">
 </p>
 3.2b Test-case: `rows=2 and columns=3`
-Resultado:
+**Result:**
 
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.2b.PNG" alt="3.2b">
@@ -139,7 +140,7 @@ Resultado:
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.2c.PNG" alt="3.2c">
 </p>
 3.2d Test-case: `rows=7 and columns=36`
-Resultado:
+**Result:**
 
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.2d.PNG" alt="3.2d">
