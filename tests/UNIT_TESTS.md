@@ -58,7 +58,7 @@ The purpose of testing the randomizeGrid function is to ensure that it generates
 **result:**
 ![2.b](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.b.PNG)
 
-**2.c** Test-case: `rows=36 and columns=120`
+**2.c** Test-case: `rows=7 and columns=36`
 **result:**
 ![2.c](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.c.PNG)
 
