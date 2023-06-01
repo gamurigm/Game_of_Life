@@ -1,10 +1,10 @@
-import { canvasDimention } from "./canvasDim.js";
+import { canvasDimension } from "./canvasDim.js";
 import { createGrid } from "./createGrid.mjs";
 import { randomizeGrid } from "./ramdomGrid.js";
 import { updateGrid } from "./updateGameStatus.mjs";
 import { renderGrid } from "./gridRenderer.js";
 
-const { cols, rows, cellSize, canvas, context } = canvasDimention();
+const { cols, rows, cellSize, canvas, context } = canvasDimension();
 
 const game = {
   updateCount: 0,
