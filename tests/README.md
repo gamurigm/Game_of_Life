@@ -48,4 +48,19 @@ In these unit tests, we will be testing the `createGrid` function. The `createGr
 
 
 ## 2. Testing randomizeGrid function:
+The purpose of testing the randomizeGrid function is to ensure that it generates a random grid with the appropriate life or death states assigned to each cell.
+
+**2.a** Test-case: `rows=1 columns=1`
+**result:**
+![c.](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.a-test.PNG)
+
+**2.b** Test-case: `rows=5 and columns=4`
+**result:**
+![2.b](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.b-test.PNG)
+
+**2.c** Test-case: `rows=36 and columns=120`
+**result:**
+![2.c](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.c-test.PNG)
+
+
 ## 3. Testing updateGrid function:
