@@ -38,13 +38,13 @@ In these unit tests, we will be testing the `createGrid` function. The `createGr
 
 ## Use Cases Matrix
 
-| Test ID | Description         | Pre-Condition        | Pass/Fail |
-| --------| --------------------| -------------------- | --------- |
-| a       | cols = 0 & rows = 0 | getCanvasDimension() |   YES     |                  
-| b       | cols = 1 & rows = 1 | getCanvasDimension() |   YES     |              
-| c       | cols = 5 & rows = 4 | getCanvasDimension() |   YES     |                       
-| d       | cols = 10 & rows = 30 | getCanvasDimension() |   YES     |                       
-| e       | cols = 501 & rows = 301 | getCanvasDimension() |   YES     |                       
+| Test ID | Description           | Pre-Condition        | Pass/Fail | Observation  |  
+| --------| --------------------- | -------------------- | --------- |--------------|
+| a       | cols = 0 & rows = 0   | getCanvasDimension() |   YES     | Do not create |                 
+| b       | cols = 1 & rows = 1   | getCanvasDimension() |   YES     | single cell  |             
+| c       | cols = 5 & rows = 4   | getCanvasDimension() |   YES     |   5x4 Matrix |                   
+| d       | cols = 10 & rows = 30 | getCanvasDimension() |   YES     |  10x30 Matrix |                    
+| e       | cols = 501 & rows = 301 | getCanvasDimension() |   YES     | 501x301 Matrix             |         
 
 
 
