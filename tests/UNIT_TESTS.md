@@ -53,18 +53,24 @@ Follow these steps:
 1. In the test folder Run on terminal: `node randomizeGrid_test.js`
 2.test the following:
 
-**2.a** Test-case: `rows=1 columns=1`
+2.a Test-case: rows=1 columns=1
 **result:**
-![c.](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.a.PNG)
 
-**2.b** Test-case: `rows=5 and columns=4`
-**result:**
-![2.b](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.b.PNG)
+<p align="center">
+  <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.a.PNG" alt="2.a">
+</p>
+2.b Test-case: rows=5 and columns=4
+**result:
 
-**2.c** Test-case: `rows=7 and columns=36`
-**result:**
-![2.c](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.c.PNG)
+<p align="center">
+  <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.b.PNG" alt="2.b">
+</p>
+2.c Test-case: rows=7 and columns=36
+**result:
 
+<p align="center">
+  <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.c.PNG" alt="2.c">
+</p>
 
 ## 3. Testing updateGrid function:
 The purpose of testing the `updateGrid()` function is to verify its correctness and ensure that it accurately updates the state of the grid according to the rules of the game.
@@ -76,10 +82,9 @@ at current directory run: `node testUpdateGrid_fixed.mjs`
 
 these are the fixed valued for three grids (anyone can manually modify):
 
-![fixedValues](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/fixedValues.PNG)
-
-
-Aquí tienes las imágenes centradas y con la descripción adecuada:
+<p align="center">
+  <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/fixedValues.PNG" alt="fixedValues">
+</p>
 
 3.1a Test-case: `fixed grid 1`
 Resultado:
