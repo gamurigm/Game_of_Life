@@ -65,19 +65,20 @@ Follow these steps:
 1. In the test folder Run on terminal: `node randomizeGrid_test.js`
 2.test the following:
 
-2.a Test-case: rows=1 columns=1
+2.a Test-case: `rows=1 columns=1`
 **result:**
 
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.a.PNG" alt="2.a">
 </p>
-2.b Test-case: rows=5 and columns=4
+2.b Test-case: `rows=5 and columns=4`
 **result:**
 
 <p align="center">
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.b.PNG" alt="2.b">
 </p>
-2.c Test-case: rows=7 and columns=36
+
+2.c Test-case: `rows=7 and columns=36`
 **result:**
 
 <p align="center">
