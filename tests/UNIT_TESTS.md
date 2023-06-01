@@ -52,15 +52,15 @@ The purpose of testing the randomizeGrid function is to ensure that it generates
 
 **2.a** Test-case: `rows=1 columns=1`
 **result:**
-![c.](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.a-test.PNG)
+![c.](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.a.PNG)
 
 **2.b** Test-case: `rows=5 and columns=4`
 **result:**
-![2.b](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.b-test.PNG)
+![2.b](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.b.PNG)
 
 **2.c** Test-case: `rows=36 and columns=120`
 **result:**
-![2.c](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.c-test.PNG)
+![2.c](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.c.PNG)
 
 
 ## 3. Testing updateGrid function:
