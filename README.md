@@ -7,7 +7,7 @@ The rules determine the state of each cell in the next generation based on its c
 These simple rules give rise to complex patterns and behaviors in the evolving generations of the game.
 
 ## Table of Contents
-1. [**Game Rules**](#game-rules)
+1. [**Game Rules**](game-rules)
 2. [**Requirements**](#requirements)
 3. [**Installation Instructions**](#installation-instructions)
 4. [**Project Structure**](#project-structure)
@@ -70,6 +70,19 @@ The project consists of several files organized into modules to handle different
 - `updateGameStatus.js` depends on `createGrid.mjs` to create a new grid.
 - `gridRenderer.js` depends on external factors like the canvas and its context to render the grid.
 
+## Project Functions
+
+| Function name                  | Description                                                 |
+| ------------------------------ | ----------------------------------------------------------- |
+| `initialize()`                 | Initializes the game.                                       |
+| `updateGame()`                 | Updates the game state and renders the grid.                 |
+| `updateInterval(interval)`     | Sets the interval for updating the game.                    |
+| `getUpdateCount()`             | Returns the current count of updates.                       |
+| `createGrid(cols, rows)`       | Creates the initial grid based on specified dimensions.     |
+| `randomizeGrid(grid)`          | Generates a random grid by assigning life or death state.    |
+| `updateGrid(grid)`             | Updates the game state using Conway's Game of Life rules.    |
+| `countLivingNeighbors(grid, col, row)` | Counts the number of living neighbors for a given cell. |
+| `renderGrid(grid, cols, rows, cellSize, canvas, context)` | Renders the grid on the canvas.                    |
 
 
 # How It Works <a name="how-it-works"></a>
@@ -113,25 +126,21 @@ To compile and run the Game of Life project, follow these steps:
 **1.** Open the "Game_of_Life" folder using Visual Studio Code.
 
 **2.** Go to the Extensions section of Visual Studio Code, search for "Live Server," and install it.
-
 ![Install Live Server](https://github.com/gamurigm/Game_of_Life/blob/main/docs/img/live-server.PNG)
 
 
 
 **3.** Start the server by clicking the "Go Live" button located in the bottom-right corner of Visual Studio Code.
-
 ![go live](https://github.com/gamurigm/Game_of_Life/blob/main/docs/img/goLive.PNG)
 
 
 
 **4.** The server will start on a local port and open in your default browser.
-
 ![server started](https://github.com/gamurigm/Game_of_Life/blob/main/docs/img/serverStarted.PNG)
 
 
 
-**##5.** Enter the required data prompted by the program to start the game.
-
+**5.** Enter the required data prompted by the program to start the game.
 ![data input](https://github.com/gamurigm/Game_of_Life/blob/main/docs/img/dataInput.PNG)
 
 
