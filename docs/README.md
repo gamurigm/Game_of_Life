@@ -98,6 +98,26 @@ The flow of the application is as follows:
 5. The `updateGame()` method updates the game state by applying the rules, renders the grid, and increases the update counter.
 6. The update loop continues at regular intervals until it is stopped by user.
 
+## FLowchart:
+```mermaid 
+flowchart 
+    subgraph Game 
+        initialize[Initialize]
+        getDimensions[Get Canvas Dimensions]
+        createGrid[Create Grid]
+        randomizeGrid[Randomize Grid]
+        updateGrid[Update Grid]
+        renderGrid[Render Grid]
+        updateGame[Update Game Status]
+    end
+
+    initialize --> getDimensions
+    getDimensions --> createGrid
+    createGrid --> randomizeGrid
+    randomizeGrid --> updateGrid
+    updateGrid --> renderGrid
+    updateGrid --> updateGame
+    renderGrid --> updateGame
 
 
 # Configuration <a name="configuration"></a>
@@ -159,12 +179,3 @@ Here is our game board example with a 50x50 grid, 50 columns and 50 rows:
   <img src="https://github.com/gamurigm/Game_of_Life/blob/main/docs/img/game-front-end_ex1.PNG" alt="50x50" width="500" height="500" />
 </p>
 
-## Flow's Diagram
-
-```dot
-digraph flowchart {
-  start -> step1;
-  step1 -> step2;
-  step2 -> step3;
-  step3 -> end;
-}
