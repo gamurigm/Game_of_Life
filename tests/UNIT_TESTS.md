@@ -74,53 +74,53 @@ Test the followig:
 ### With fixed values:
 at current directory run: `node testUpdateGrid_fixed.mjs`
 
-**3.1a** Test-case: `rows=2 columns=3`
-**result:**
-![3.1a](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.a.PNG)
+these are the fixed valued for three grids (anyone can manually modify):
+![fixedValues](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/fixedValues.PNG)
 
-**3.1a** Test-case: `rows=2 columns=3`
+**3.1a** Test-case: `fixed grid 1`
 **result:**
-![3.1a](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.a.PNG)
+![3.1a](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.1a.PNG)
 
-**3.1a** Test-case: `rows=2 columns=3`
+**3.1a** Test-case: `fixed grid 2`
 **result:**
-![3.1a](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.a.PNG)
+![3.1a](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.1b.PNG)
+
+**3.1a** Test-case: `fixed grid 3`
+**result:**
+![3.1a](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.1c.PNG)
 
 ### Variation: 
 In this case we use (x,y) rows and cols promted by the user and random values.
 
-at current directory run: `node testUpdateGrid_fixed.mjs`
+at current directory run: `node testUpdateGrid_random.mjs`
 
-**3.2a** Test-case: `rows=2 columns=3`
+**3.2a** Test-case: `rows=1 columns=1`
 **result:**
-![3.2a](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.a.PNG)
+![3.2a](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.2a.PNG)
 
-**3.2b** Test-case: `rows=2 and columns=1`
+**3.2b** Test-case: `rows=2 and columns=3`
 **result:**
-![3.2b](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.b.PNG)
+![3.2b](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.2b.PNG)
 
-**3.2c** Test-case: `rows=7 and columns=36`
+**3.2c** Test-case: `rows=5 and columns=5`
 **result:**
-![3.2c](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.c.PNG)
+![3.2c](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.2c.PNG)
 
 **3.2d** Test-case: `rows=7 and columns=36`
 **result:**
-![3.2d](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.c.PNG)
+![3.2d](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/3.2d.PNG)
 
-**3.2e** Test-case: `rows=7 and columns=36`
-**result:**
-![3.2e](https://github.com/gamurigm/Game_of_Life/blob/main/tests/img/2.c.PNG)
 
 
 ## Use Cases Matrix
 
-| Test ID | Description           | Pre-Condition        | Pass/Fail | Observation  |  
-| --------| --------------------- | -------------------- | --------- |--------------|
-| 3.1a       | cols = 0 & rows = 0   | none |   YES     | Do not create |                 
-| 3.1b       | cols = 1 & rows = 1   | none |   YES     | single cell  |             
-| 3.1c       | cols = 5 & rows = 4   | none |   YES     |   5x4 Matrix |                   
-| 3.2a       | cols = 10 & rows = 30 | none |   YES     |  10x30 Matrix |                    
-| 3.2b       | cols = 501 & rows = 301 | none |   YES     | 501x301 Matrix             |        
-| 3.2c       | cols = 501 & rows = 301 | none |   YES     | 501x301 Matrix             |        
-| 3.2d       | cols = 501 & rows = 301 | none |   YES     | 501x301 Matrix             |        
-| 3.2e       | cols = 501 & rows = 301 | none |   YES     | 501x301 Matrix             |        
+| Test ID | Description           | Pre-Condition   | Pass/Fail | Observation   |  
+| --------| --------------------- | --------------- | --------- |-------------- |
+| 3.1a    | with fixed grid 1   | none              |   YES     | Do not create |               
+| 3.1b    | with fixed grid 2   | none              |   YES     | single cell   |            
+| 3.1c    | with fixed grid 3   | none              |   YES     |   5x4 Matrix  |                   
+| 3.2a    | cols = 1 & rows = 1 | none              |   YES     |  1x1 Matrix   |                   
+| 3.2b    | cols = 3 & rows = 2 | none              |   YES     | 2x3 Matrix    |                    
+| 3.2c    | cols = 5 & rows = 5 | none              |   YES     | 5x5 Matrix    |                   
+| 3.2d    | cols = 36 & rows = 7 | none             |   YES     | 7x36 Matrix   |                  
+
