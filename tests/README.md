@@ -11,8 +11,8 @@ To run the unit tests follow these steps:
 ## 1. Testing `createGrid` function:
 
 In these unit tests, we will be testing the `createGrid` function. The `createGrid` function is responsible for creating the initial grid based on the specified dimensions.
-1. Place you at the proyect's test folder 
-2. Run at vcode or any terminal: `Node createGrid_test.mjs`  
+1. Place you at the proyect's test folder: `...\Game_of_Live\tests` 
+2. Run at visual code or any terminal: `Node createGrid_test.mjs`  
 3. test the following:
 
 **a.** Test-case: `columns = 0 and rows = 0`
@@ -47,5 +47,5 @@ In these unit tests, we will be testing the `createGrid` function. The `createGr
 
 
 
-## 2. Testing randomizeGrig function:
+## 2. Testing randomizeGrid function:
 ## 3. Testing updateGrid function:
