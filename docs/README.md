@@ -128,6 +128,11 @@ The `countUpdate` property in the game object represents the number of updates t
 
 The game object provides the `getUpdateCount()` method to retrieve the current value of `countUpdate`. 
 
+#### Control-container:
+<p align="center">
+  <img src="https://github.com/gamurigm/Game_of_Life/blob/main/docs/img/control.PNG" alt="control">
+</p>
+**Note:** minimum velocity is reached at right side of the bar. 
 
 # Compilation Instructions <a name="compilation-instructions"></a>
 ## Compiling the Game of Life Project
