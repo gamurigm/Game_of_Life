@@ -1,1 +1,0 @@
-Abrir la carpeta docs de este directorio y leer el README.md (Manual técnico y guía de Uso) de este proyecto, ir a la seccion "Compile Instructions" y seguir los pasos.
