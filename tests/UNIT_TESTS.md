@@ -153,9 +153,9 @@ At current directory, run: `node testUpdateGrid_random.mjs`
 
 | Test ID | Description           | Pre-Condition   | Pass/Fail | Observation   |  
 | --------| --------------------- | --------------- | --------- |-------------- |
-| 3.1a    | with fixed grid 1   | none              |   YES     | Do not create |               
-| 3.1b    | with fixed grid 2   | none              |   YES     | single cell   |            
-| 3.1c    | with fixed grid 3   | none              |   YES     |   5x4 Matrix  |                   
+| 3.1a    | with fixed grid 1   | none              |   YES     | updates until iteration 3 |               
+| 3.1b    | with fixed grid 2   | none              |   YES     | updates until iteration 4   |            
+| 3.1c    | with fixed grid 3   | none              |   YES     |   it's infinitely updated |                   
 | 3.2a    | cols = 1 & rows = 1 | none              |   YES     |  1x1 Matrix   |                   
 | 3.2b    | cols = 3 & rows = 2 | none              |   YES     | 2x3 Matrix    |                    
 | 3.2c    | cols = 5 & rows = 5 | none              |   YES     | 5x5 Matrix    |                   
